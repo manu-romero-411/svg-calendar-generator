@@ -4,6 +4,14 @@
         // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
         "version": "0.2.0",
         "configurations": [
+                {
+                        "name": "test 1582",
+                        "type": "debugpy",
+                        "request": "launch",
+                        "program": "${file}",
+                        "console": "integratedTerminal",
+                        "args": ["-y", "1582"]
+                },
                 
                 {
                         "name": "test 2018",
